@@ -1,6 +1,7 @@
 package com.magicbeans.collaboration.controller.base;
 
 import com.magicbeans.base.ajax.ResponseData;
+import org.apache.log4j.Logger;
 
 
 /**
@@ -9,6 +10,7 @@ import com.magicbeans.base.ajax.ResponseData;
 public class BaseController {
 
 
+    protected Logger logger = Logger.getLogger(BaseController.class);
     /**
      * 构造rest返回参数
      * @param status
